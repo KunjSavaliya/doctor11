@@ -62,7 +62,7 @@ function Home() {
                 {/* Left Section with Text */}
                 <div className="flex-1  w-[50%] bg-[#f3f5f9] p-8 lg:pl-32 lg:pr-32">
                     <p className="font-normal text-gray-300">Top Keyhole Heart Surgeon in Ahmedabad</p>
-                    <p className="font-semibold text-4xl text-blue-700 mt-3 text-justify">Dr. Jaydip Ramani - Best Cardiac Surgeon in Ahmedabad</p>
+                    <p className="font-semibold text-4xl text-blue-700 mt-3 text-start">Dr. Jaydip Ramani - Best Cardiac Surgeon in Ahmedabad</p>
                     <p className='text-gray-600 mt-5 text-justify'>
                         Dr. Jaydip Ramani is a senior, qualified Vascular and Minimal Invasive Keyhole Heart Surgeon in clinical practice for the last 12 years.
                         Dr. Jaydip Ramani, the best cardiac surgeon in Ahmedabad, is working at Plexus Heart Surgery Centre, which is a state-of-the-art, specialized Minimal Invasive Keyhole Heart Surgery for Cardio Thoracic Vascular Surgery.
