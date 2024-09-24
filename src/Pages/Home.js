@@ -38,7 +38,7 @@ function Home() {
             <div className="relative w-full h-[400px] -mt-2 ">
                 <img src={images[currentImage]} alt="carousel" className="w-full h-full object-cover" />
                 <div className=" flex flex-col gap-10 absolute top-0 left-0 p-5 text-white">
-                    <h2 className="text-5xl w-[70%] font-bold lg:pl-36 animate__animated animate__fadeInDown">{textContent[currentImage]}</h2>
+                    <h2 className=" text-xl lg:text-5xl w-[70%] font-bold lg:pl-36 animate__animated animate__fadeInDown">{textContent[currentImage]}</h2>
                     <div className='pl-36'>
                         <button className=" text-white font-bold bg-[#14B0EB] px-5 py-4 rounded animate__animated animate__fadeInUp">BOOK AN APPOINTMENT </button>
 
