@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import img1 from '../Images/bn1.jpg';
-import img2 from '../Images/bn2.jpg';
-import img3 from '../Images/bn3.jpg';
-import hp1 from '../Images/img.png';
-import hp2 from '../Images/img2.png';
-import hp3 from '../Images/img3.jpg';
-import hp4 from '../Images/img4.jpg';
-import hp5 from '../Images/img5.jpg';
-import hp6 from '../Images/img6.png';
-import hp7 from '../Images/img7.png';
-import hp8 from '../Images/img8.png';
-import hp9 from '../Images/img9.png';
-import doctor from '../Images/doctorImg.png';
+import img1 from '../../Images/bn1.jpg';
+import img2 from '../../Images/bn2.jpg';
+import img3 from '../../Images/bn3.jpg';
+import hp1 from '../../Images/img.png';
+import hp2 from '../../Images/img2.png';
+import hp3 from '../../Images/img3.jpg';
+import hp4 from '../../Images/img4.jpg';
+import hp5 from '../../Images/img5.jpg';
+import hp6 from '../../Images/img6.png';
+import hp7 from '../../Images/img7.png';
+import hp8 from '../../Images/img8.png';
+import hp9 from '../../Images/img9.png';
+import doctor from '../../Images/doctorImg.png';
 import 'animate.css';
 
 function Home() {
