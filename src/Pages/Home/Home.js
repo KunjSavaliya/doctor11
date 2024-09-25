@@ -110,9 +110,9 @@ function Home() {
                             <div className='bg-white border animate__animated animate__pulse border-black p-2'>
                                 <img src={card.imgSrc} alt={card.title} width={200} height={100} className='border-black border-[5px] h-[200px]' />
                             </div>
-                            <p className='text-xl text-white mt-3'>{card.title}</p>
-                            <p className='text-[#14B0EB] sm:w-80 text-center mt-5'>{card.description}</p>
-                            <p className='text-[#14B0EB]'>Read more</p>
+                            <p className='text-xl text-white mt-3 text-center' >{card.title}</p>
+                            <p className='text-[#14B0EB] sm:w-80 text-center mt-5 p-1'>{card.description}</p>
+                            <p className='text-[#14B0EB] text-center w-full'>Read more</p>
                         </div>
                     ))}
                 </div>
