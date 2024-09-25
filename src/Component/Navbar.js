@@ -30,7 +30,6 @@ function Navbar() {
             window.removeEventListener('resize', handleResize);
         };
     }, [isMobile]);
-   
 
     return (
         <>
@@ -52,17 +51,16 @@ function Navbar() {
                     </a>
                 </div>
             </div>
-
             <div className={`flex flex-col items-center lg:flex-row justify-around p-3 transition-all duration-300 ${isSticky && !isMobile ? 'fixed top-0 left-0 right-0 bg-white shadow-lg z-50 animate__animated animate__fadeInDown' : 'relative'}`}>
                 <div className="flex items-center mb-4 lg:mb-0">
                     <img src={logo} alt='Logo' width={300} height={100} />
                 </div>
                 {isSticky && !isMobile ? (
                     <div className='flex gap-10 mb-3 pl-10 text-md text-[#14B0EB] font-bold justify-center items-center hidden lg:flex cursor-pointer'>
-                        <p  onClick={ () => navigate('/')}>HOME</p>
-                        <p onClick={ () => navigate('/about-us')}>ABOUT US</p>
+                        <p onClick={() => navigate('/')}>HOME</p>
+                        <p onClick={() => navigate('/about-us')}>ABOUT US</p>
                         <p>SERVICES</p>
-                        <p onClick={ () => navigate('/contact')}>CONTACT</p>
+                        <p onClick={() => navigate('/contact')}>CONTACT</p>
                     </div>
                 ) : (
                     <div className="flex flex-wrap items-center gap-6">
@@ -96,10 +94,10 @@ function Navbar() {
             <div className='flex flex-col lg:flex-row pl-10 pr-10 lg:pl-52 lg:pr-52'>
                 <div className='flex justify-between bg-[#001e57] w-full p-5'>
                     <div className='flex gap-10 mb-3 pl-10 text-md text-white font-bold justify-center items-center hidden lg:flex cursor-pointer'>
-                    <p  onClick={ () => navigate('/')}>HOME</p>
-                        <p  onClick={ () => navigate('/about-us')}>ABOUT US</p>
+                        <p onClick={() => navigate('/')}>HOME</p>
+                        <p onClick={() => navigate('/about-us')}>ABOUT US</p>
                         <p>SERVICES</p>
-                        <p onClick={ () => navigate('/contact')}>CONTACT</p>
+                        <p onClick={() => navigate('/contact')}>CONTACT</p>
                     </div>
                     <button
                         onClick={() => setDropdownOpen(!isDropdownOpen)}
@@ -107,15 +105,14 @@ function Navbar() {
                     >
                         <HiMenu size={30} className='text-[#14B0EB]' />
                     </button>
-
                     {isDropdownOpen && (
                         <div className='flex flex-col items-center mt-16 lg:hidden'>
                             <img src={logo} alt='Logo' width={150} height={50} className="mb-2" />
                             <div className='bg-orange-500 border-2 border-white w-full p-2 cursor-pointer'>
-                                <p className='text-white font-bold border-2 p-3 border-white mb-2 '  onClick={ () => navigate('/')}>HOME</p>
-                                <p className='text-white font-bold border-2 p-3 border-white mb-2'  onClick={ () => navigate('/about-us')}>ABOUT US</p>
+                                <p className='text-white font-bold border-2 p-3 border-white mb-2 ' onClick={() => navigate('/')}>HOME</p>
+                                <p className='text-white font-bold border-2 p-3 border-white mb-2' onClick={() => navigate('/about-us')}>ABOUT US</p>
                                 <p className='text-white font-bold border-2 p-3 border-white mb-2'>SERVICES</p>
-                                <p className='text-white font-bold border-2 p-3 border-white' onClick={ () => navigate('/contact')}>CONTACT</p>
+                                <p className='text-white font-bold border-2 p-3 border-white' onClick={() => navigate('/contact')}>CONTACT</p>
                             </div>
                         </div>
                     )}

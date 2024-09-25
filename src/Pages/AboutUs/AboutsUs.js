@@ -7,9 +7,8 @@ function AboutsUs() {
     const navigate = useNavigate();
 
     const handleHomeClick = () => {
-        navigate('/'); // Redirect to the home page
+        navigate('/');
     };
-
     return (
         <>
             <div className="relative w-full h-[400px] -mt-2">
@@ -77,31 +76,27 @@ function AboutsUs() {
                         </div>
                     </div>
                 </div>
-
             </div>
             <div className='opacity-90 p-20 bg-[#001e57] flex flex-col lg:flex-row lg:pl-[20%] lg:pr-[20%]'>
-    <div className='p-14 w-[100%] bg-white -mt-5'>
-        <p className="text-3xl font-extrabold lg:text-4xl bg-white text-[#001e57] mt-3 text-center">
-            Our Mission
-        </p>
-        <hr className='border-t-1 border-gray-600 w-20 mx-auto mt-4' />
-
-        <p className='text-[#555555] text-xl mt-4 text-center'>
-            Our doctors are committed to providing you with the best possible care. They will take the time to listen to your concerns and answer your questions.
-        </p>
-    </div>
-    
-    <div className='p-14 w-[100%] bg-white mt-4 lg:mt-0 -mb-10'>
-        <p className="text-3xl font-extrabold lg:text-4xl text-[#001e57] mt-3 text-center">
-            Our Vision
-        </p>
-        <hr className='border-t-1 border-gray-600 w-20 mx-auto mt-4' />
-
-        <p className='text-[#555555] text-xl text-center mt-4'>
-            We are here to help you achieve and maintain your optimal health. If you are looking for a team of experienced and caring doctors, we encourage you to contact us today.
-        </p>
-    </div>
-</div>
+                <div className='p-14 w-[100%] bg-white -mt-5'>
+                    <p className="text-3xl font-extrabold lg:text-4xl bg-white text-[#001e57] mt-3 text-center">
+                        Our Mission
+                    </p>
+                    <hr className='border-t-1 border-gray-600 w-20 mx-auto mt-4' />
+                    <p className='text-[#555555] text-xl mt-4 text-center'>
+                        Our doctors are committed to providing you with the best possible care. They will take the time to listen to your concerns and answer your questions.
+                    </p>
+                </div>
+                <div className='p-14 w-[100%] bg-white mt-4 lg:mt-0 -mb-10'>
+                    <p className="text-3xl font-extrabold lg:text-4xl text-[#001e57] mt-3 text-center">
+                        Our Vision
+                    </p>
+                    <hr className='border-t-1 border-gray-600 w-20 mx-auto mt-4' />
+                    <p className='text-[#555555] text-xl text-center mt-4'>
+                        We are here to help you achieve and maintain your optimal health. If you are looking for a team of experienced and caring doctors, we encourage you to contact us today.
+                    </p>
+                </div>
+            </div>
 
         </>
     );
