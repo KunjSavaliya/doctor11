@@ -28,7 +28,7 @@ function AboutsUs() {
                 <p className=" p-4 lg:pl-[25%] lg:pr-[25%] text-xl  font-semibold lg:text-xl text-[#555555] mt-3 text-center">Dr. Jaydip Ramani is a senior, qualified Minimal Invasive Keyhole Heart & Vascular Surgeon in clinical practice for the last 12+ years. Dr. Jaydip Ramani is working at Plexus Heart Surgery Centre which is a state-of-the-art, specialized Minimal Invasive Keyhole Heart Surgery for Cardio Thoracic Vascular Surgeon. The hospital has trained & dedicated staff and all the modern equipment for the diagnosis and treatments of Heart Vascular disorders. Our team offers comprehensive state-of-the-art Diagnostic and Therapeutic Interventions for the entire spectrum of vascular disorders, from Medical Management to Minimally Invasive Keyhole Heart Surgery to Conventional Open Heart Surgery.</p>
 
             </div>
-            <div className=" flex-row lg:flex flex-wrap justify-center item-center xl:pl-[25%] xl:pr-[25%] p-4">
+            <div className=" flex-row lg:flex flex-wrap justify-center item-center xl:pl-[25%] xl:pr-[25%] p-8">
                 <div className='flex flex-wrap justify-center lg:justify-end animate__animated animate__fadeInLeft'>
                     <div className="flex flex-wrap gap-5 p-3 ">
                         <img src={doctorName} alt='Vascular Surgeon' width={400} height={400} className=' h-[350px] lg:h-[450px]   animate__animated animate__fadeInUp ' />
@@ -78,7 +78,7 @@ function AboutsUs() {
                 </div>
             </div>
             <div className='opacity-90 p-5 lg:p-20 bg-[#001e57] flex flex-col lg:flex-row lg:pl-[20%] lg:pr-[20%]'>
-                <div className='p-10 *:lg:p-14 w-[100%] bg-white -mt-5'>
+                <div className='p-10 *:lg:p-14 w-[100%] bg-white lg:-mt-5'>
                     <p className="text-3xl font-extrabold lg:text-4xl bg-white text-[#001e57] mt-3 text-center">
                         Our Mission
                     </p>
