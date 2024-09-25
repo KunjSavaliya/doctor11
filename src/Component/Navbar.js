@@ -108,18 +108,23 @@ function Navbar() {
                     {isDropdownOpen && (
                         <div className='flex flex-col items-center mt-16 lg:hidden'>
                             <div className='bg-orange-500 border-2 border-white w-full p-2 cursor-pointer'>
-                                <p className='text-white font-bold border-2 p-3 border-white mb-2 ' onClick={() => navigate('/')}>HOME</p>
-                                <p className='text-white font-bold border-2 p-3 border-white mb-2' onClick={() => navigate('/about-us')}>ABOUT US</p>
-                                <p className='text-white font-bold border-2 p-3 border-white mb-2'>SERVICES</p>
-                                <p className='text-white font-bold border-2 p-3 border-white' onClick={() => navigate('/contact')}>CONTACT</p>
-                            </div>
+                                <p className='text-white font-bold border-2 p-3 border-white mb-2 ' onClick={() => {
+                                    navigate('/');
+                                    setDropdownOpen(false);
+                                }}>HOME</p>
+                                <p className='text-white font-bold border-2 p-3 border-white mb-2' onClick={() => {navigate('/about-us'); 
+     setDropdownOpen(false);}}>ABOUT US</p>
+                            <p className='text-white font-bold border-2 p-3 border-white mb-2'>SERVICES</p>
+                            <p className='text-white font-bold border-2 p-3 border-white' onClick={() => {navigate('/contact');; 
+     setDropdownOpen(false);}}>CONTACT</p>
+                        </div>
                         </div>
                     )}
-                </div>
-                <div className='flex justify-center gap-5 mb-2 text-white font-bold lg:bg-[#14B0EB]'>
-                    <button className='w-52 hidden lg:block'>BOOK AN APPOINTMENT</button>
-                </div>
             </div>
+            <div className='flex justify-center gap-5 mb-2 text-white font-bold lg:bg-[#14B0EB]'>
+                <button className='w-52 hidden lg:block'>BOOK AN APPOINTMENT</button>
+            </div>
+        </div >
         </>
     );
 }
