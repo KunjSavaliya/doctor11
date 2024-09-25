@@ -70,7 +70,7 @@ function Home() {
             <div className="flex flex-wrap ">
                 <div className="flex-1  w-[50%] bg-[#f3f5f9] p-8 lg:pl-32 lg:pr-32">
                     <p className="font-normal text-gray-300">Top Keyhole Heart Surgeon in Ahmedabad</p>
-                    <p className="font-semibold text-4xl text-blue-700 mt-3 text-start">Dr. Jaydip Ramani - Best Cardiac Surgeon in Ahmedabad</p>
+                    <p className="font-semibold text-4xl text-[#0000ff] mt-3 text-start">Dr. Jaydip Ramani - Best Cardiac Surgeon in Ahmedabad</p>
                     <p className='text-gray-600 mt-5 text-justify'>
                         Dr. Jaydip Ramani is a senior, qualified Vascular and Minimal Invasive Keyhole Heart Surgeon in clinical practice for the last 12 years.
                         Dr. Jaydip Ramani, the best cardiac surgeon in Ahmedabad, is working at Plexus Heart Surgery Centre, which is a state-of-the-art, specialized Minimal Invasive Keyhole Heart Surgery for Cardio Thoracic Vascular Surgery.
@@ -121,8 +121,9 @@ function Home() {
                 <div className="flex-1  w-[50%] bg-[#f3f5f9] p-8 lg:pl-32 lg:pr-32">
                     <p className="font-semibold text-4xl text-black mt-3">Our Expert Doctor</p>
                     <p className=' mt-5 text-blue-700 text-xl text-justify'>
-                        Approach
+                        Approach        
                     </p>
+                    <hr className='border-t-2 border-[#14B0EB] w-20  mt-4' />
                     <p className='text-gray-600 mt-5 text-justify'>
                         In the last 12+ years. Dr. Jaydip Ramani has successfully performed over 5,000 Minimal Invasive Keyhole Heart operations besides being associated with over 25,000 major cardiovascular procedures. This includes arterial coronary bypass graft surgery, Aortic / Mitral /Tricuspid valve repair & replacements, (MICAS) Beating heart surgery, Aortic root surgery, Aneurysm surgery, heart transplantation, heart tumor / Myxoma surgery, and other complex cardiac procedures.
                     </p>
@@ -139,9 +140,13 @@ function Home() {
             <div className='bg-[#001e57] p-24'>
                 <h1 className='text-4xl  font-bold text-start text-white'>Latest Updates
                 </h1>
+                    <hr className='border-t-2 border-[#14B0EB] w-36  mt-4' />
+
             </div>
-            <h1 className='text-5xl mt-10  font-bold text-center text-[#001e57] mb-10'>Our Patient's Feedback
+            <h1 className='text-5xl mt-20  font-bold text-center text-[#001e57] mb-20'>Our Patient's Feedback
+            <hr className='border-t-2 border-[#14B0EB] w-20 mx-auto  mt-4' />
             </h1>
+
         </>
     );
 }

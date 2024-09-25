@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa6';
+import couter from "../Images/freecounterstat.png";
 
 function Footer() {
     return (
@@ -47,6 +48,8 @@ function Footer() {
                     <p className='text-white font-bold text-xl'>
                         Website Visitors
                     </p>
+                    <img src={couter} alt='couter' width={300} height={100} className='mt-5' />
+
                 </div>
                 <div>
                     <p className='text-white font-bold text-xl'>
