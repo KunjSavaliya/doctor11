@@ -92,8 +92,8 @@ function Navbar() {
             </div>
 
             <div className='flex flex-col lg:flex-row pl-10 pr-10 lg:pl-52 lg:pr-52'>
-                <div className='flex justify-between bg-[#001e57] w-full p-5'>
-                    <div className='flex gap-10 mb-3 pl-10 text-md text-white font-bold justify-center items-center hidden lg:flex cursor-pointer'>
+                <div className=' justify-between bg-[#001e57] w-full p-5'>
+                    <div className='flex gap-10 mb-3 pl-10 text-md text-white font-bold  items-center hidden lg:flex cursor-pointer'>
                         <p onClick={() => navigate('/')}>HOME</p>
                         <p onClick={() => navigate('/about-us')}>ABOUT US</p>
                         <p>SERVICES</p>
@@ -107,7 +107,6 @@ function Navbar() {
                     </button>
                     {isDropdownOpen && (
                         <div className='flex flex-col items-center mt-16 lg:hidden'>
-                            <img src={logo} alt='Logo' width={150} height={50} className="mb-2" />
                             <div className='bg-orange-500 border-2 border-white w-full p-2 cursor-pointer'>
                                 <p className='text-white font-bold border-2 p-3 border-white mb-2 ' onClick={() => navigate('/')}>HOME</p>
                                 <p className='text-white font-bold border-2 p-3 border-white mb-2' onClick={() => navigate('/about-us')}>ABOUT US</p>
