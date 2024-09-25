@@ -143,7 +143,7 @@ function Home() {
                     <hr className='border-t-2 border-[#14B0EB] w-36  mt-4' />
 
             </div>
-            <h1 className='text-5xl mt-20  font-bold text-center text-[#001e57] mb-20'>Our Patient's Feedback
+            <h1 className='text-5xl mt-20     font-bold text-center text-[#001e57] mb-20'>Our Patient's Feedback
             <hr className='border-t-2 border-[#14B0EB] w-20 mx-auto  mt-4' />
             </h1>
 
