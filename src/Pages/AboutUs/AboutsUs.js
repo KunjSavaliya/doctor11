@@ -31,7 +31,7 @@ function AboutsUs() {
             <div className=" flex-row lg:flex flex-wrap justify-center item-center xl:pl-[25%] xl:pr-[25%] p-4">
                 <div className='flex flex-wrap justify-center lg:justify-end animate__animated animate__fadeInLeft'>
                     <div className="flex flex-wrap gap-5 p-3 ">
-                        <img src={doctorName} alt='Vascular Surgeon' width={400} height={500} className='  h-[450px]  animate__animated animate__fadeInUp ' />
+                        <img src={doctorName} alt='Vascular Surgeon' width={400} height={400} className=' h-[350px] lg:h-[450px]   animate__animated animate__fadeInUp ' />
                     </div>
                 </div>
                 <div className="flex-1 text-center animate__animated animate__fadeInRight">
@@ -77,8 +77,8 @@ function AboutsUs() {
                     </div>
                 </div>
             </div>
-            <div className='opacity-90 p-20 bg-[#001e57] flex flex-col lg:flex-row lg:pl-[20%] lg:pr-[20%]'>
-                <div className='p-14 w-[100%] bg-white -mt-5'>
+            <div className='opacity-90 p-5 lg:p-20 bg-[#001e57] flex flex-col lg:flex-row lg:pl-[20%] lg:pr-[20%]'>
+                <div className='p-10 lg:p-14 w-[100%] bg-white -mt-5'>
                     <p className="text-3xl font-extrabold lg:text-4xl bg-white text-[#001e57] mt-3 text-center">
                         Our Mission
                     </p>
@@ -87,7 +87,7 @@ function AboutsUs() {
                         Our doctors are committed to providing you with the best possible care. They will take the time to listen to your concerns and answer your questions.
                     </p>
                 </div>
-                <div className='p-14 w-[100%] bg-white mt-4 lg:mt-0 -mb-10'>
+                <div className=' p-10 lg:p-14 w-[100%] bg-white mt-4 lg:mt-0 lg:-mb-10'>
                     <p className="text-3xl font-extrabold lg:text-4xl text-[#001e57] mt-3 text-center">
                         Our Vision
                     </p>
