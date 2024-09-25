@@ -78,7 +78,7 @@ function AboutsUs() {
                 </div>
             </div>
             <div className='opacity-90 p-5 lg:p-20 bg-[#001e57] flex flex-col lg:flex-row lg:pl-[20%] lg:pr-[20%]'>
-                <div className='p-10 lg:p-14 w-[100%] bg-white -mt-5'>
+                <div className='p-10 *:lg:p-14 w-[100%] bg-white -mt-5'>
                     <p className="text-3xl font-extrabold lg:text-4xl bg-white text-[#001e57] mt-3 text-center">
                         Our Mission
                     </p>
