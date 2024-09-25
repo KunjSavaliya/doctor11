@@ -60,7 +60,7 @@ function Contact() {
                     </div>
 
                     {/* Google Map */}
-                    <div className="w-full lg:w-1/2 h-[300px] md:h-[450px] animate__animated animate__fadeInRight">
+                    {/* <div className="w-full lg:w-1/2 h-[300px] md:h-[450px] animate__animated animate__fadeInRight">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.102117734681!2d72.62462677609533!3d23.07664148490971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87d7a385ab7f%3A0x428ae743f3ae5f4c!2sRoseville%20Sky!5e0!3m2!1sen!2sin!4v1695654992847!5m2!1sen!2sin"
                             width="100%"
@@ -71,7 +71,7 @@ function Contact() {
                             referrerPolicy="no-referrer-when-downgrade"
                             title="Google Map"
                         ></iframe>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
@@ -79,4 +79,3 @@ function Contact() {
 }
 
 export default Contact;
-    
