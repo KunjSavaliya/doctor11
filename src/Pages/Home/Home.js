@@ -18,8 +18,8 @@ function Home() {
     const [currentImage, setCurrentImage] = useState(0);
     const images = [img2, img3, img1];
     const textContent = [
-        "Complete Heart Care Solutions Under One Roof",
-        "Advance Keyhole Heart Surgeon",
+        "What We Treat?",
+        "Our team treat all gynaecology conditions using the latest techniques.",
         "Dr. Jaydip Ramani is Top Minimal Invasive Heart Surgeon"
     ];
 
@@ -31,15 +31,15 @@ function Home() {
         setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
     };
     const specializationCards = [
-        { imgSrc: hp9, title: "Best Vascular Surgeon in Ahmedabad", description: "At Plexus Heart Surgery Centre, we understand the profound impact heart health concerns can have on your life......" },
-        { imgSrc: hp7, title: "Minimally Invasive CABG", description: "Traditionally, coronary artery bypass grafting (CABG) has involved open-heart surgery with a large incision through the chest....." },
-        { imgSrc: hp6, title: "Mitral Valve Replacement", description: "The mitral valve plays a vital role in ensuring smooth blood flow within the heart. When this valve malfunctions, it can significantly impact your heart's ability to pump blood efficiently...." },
-        { imgSrc: hp5, title: "Coronary Artery Bypass", description: "Plexus Heart Surgery Centre is a leading cardiac care provider in Ahmedabad. It offers comprehensive treatment options for coronary artery disease, including coronary artery bypass surgery (CABG)....." },
-        { imgSrc: hp4, title: "L.V. Aneurysms Operation", description: "The left ventricle, your heart's main pumping chamber, can become weakened and bulge outward due to a condition called left ventricular aneurysm (LVA)....." },
-        { imgSrc: hp3, title: "Aortic root surgery (Aneurysms)", description: "The aortic root, the very foundation of your aorta, plays a critical role in directing blood flow from your heart to the rest of your body....." },
-        { imgSrc: hp2, title: "Coronary Endarterectomy", description: "While bypass surgery has become a mainstay for treating blocked coronary arteries, there's another option for certain patients: coronary endarterectomy....." },
-        { imgSrc: hp8, title: "Myxoma", description: "While most heart conditions involve blockages or weakened muscles, myxomas present a unique challenge. These rare, non-cancerous tumors arise from the heart's connective tissue and can disrupt blood flow within the chambers...." },
-        { imgSrc: hp1, title: "Myxoma", description: "While most heart conditions involve blockages or weakened muscles, myxomas present a unique challenge. These rare, non-cancerous tumors arise from the heart's connective tissue and can disrupt blood flow within the chambers...." }
+        { imgSrc: hp9, title: "Obstetrics (Maternity)", description: "The Obstetrics wing of Vaishnavi Maternity Home delivers around 2000 babies each year. We try to keep our primary cesarean rates below 20%" },
+        { imgSrc: hp7, title: "Gynaec", description: "Vaginal hysterectomy, abdominal hysterectomy and all types of advanced laparoscopic surgeries are done at affordable cost with highest safety standards." },
+        { imgSrc: hp6, title: "Neonatology", description: "Each baby after birth is seen by paediatrician and further follow up at yashonandan Hospital advised. we do not undertake any Vaccinations for Neonates. All critical babies requiring NICU we will be refered for critical care & management to yashonandan Hospital." },
+        { imgSrc: hp5, title: "Anaesthesia", description: "The practice of obstetric anaesthesia is an emergency service we have around the clock availability of anaesthetist." },
+        { imgSrc: hp4, title: "NST and Ultrasound", description: "Ultrasound plays a critical role in the treatment of reproductive system. It gives a clear perspective for perfect diagnosis to experts." },
+        { imgSrc: hp3, title: "Pathology", description: "We though have a collection center, as we have been associated with SAATHI an NGO working in the field of HIV and AIDS we offer HIV testing in our hospital at free for antenatal mothers" },
+        { imgSrc: hp2, title: "Basic Infertility Treatment", description: "There is nothing more frustrating thing in life than finding difficulty to conceive. Do not let this annoying predicament spoil your life." },
+        { imgSrc: hp8, title: "Laparoscopic Surgery", description: "Laparoscopic surgery is the minimally invasive surgical procedure where the duration of hospitalization is the least and the recovery the fastest." },
+        { imgSrc: hp1, title: "Family Planning", description: "When you do not want to extend the family further, you need specialized guidance about the right methods that are safe, reversible and effective." }
     ];
 
     return (
@@ -48,7 +48,7 @@ function Home() {
                 <img src={images[currentImage]} alt="carousel" className="w-full h-full object-cover" />
                 <div className=" flex
                  flex-col gap-10 absolute top-0 left-0 p-5 text-white">
-                    <h2 className=" text-3xl lg:text-5xl w-[70%] font-bold lg:pl-36 animate__animated animate__fadeInDown">{textContent[currentImage]}</h2>
+                    <h2 className=" text-3xl lg:text-5xl font-bold lg:pl-36 lg:mt-16    animate__animated animate__fadeInDown">{textContent[currentImage]}</h2>
                     <div className='lg:pl-36'>
                         <button className=" text-white font-bold bg-[#14B0EB] px-5 py-4 rounded animate__animated animate__fadeInUp">BOOK AN APPOINTMENT </button>
 
@@ -69,16 +69,20 @@ function Home() {
             </div>
             <div className="flex flex-wrap ">
                 <div className="flex-1  w-[50%] bg-[#f3f5f9] p-8 lg:pl-32 lg:pr-32">
-                    <p className="font-normal text-gray-300">Top Keyhole Heart Surgeon in Ahmedabad</p>
-                    <p className="font-semibold text-4xl text-[#0000ff] mt-3 text-start">Dr. Jaydip Ramani - Best Cardiac Surgeon in Ahmedabad</p>
+                    <p className="font-normal text-gray-500">Welcome to Tashree Maternity Home</p>
+                    <p className="font-semibold text-4xl text-[#0000ff] mt-3 text-start">A Few Words about Tashree Women's Hospital</p>
                     <p className='text-gray-600 mt-5 text-justify'>
-                        Dr. Jaydip Ramani is a senior, qualified Vascular and Minimal Invasive Keyhole Heart Surgeon in clinical practice for the last 12 years.
-                        Dr. Jaydip Ramani, the best cardiac surgeon in Ahmedabad, is working at Plexus Heart Surgery Centre, which is a state-of-the-art, specialized Minimal Invasive Keyhole Heart Surgery for Cardio Thoracic Vascular Surgery.
-                        The hospital has trained & dedicated staff and all the modern equipment for the diagnosis and treatment of Heart Vascular disorders.
-                        Our team offers comprehensive state-of-the-art Diagnostic and Therapeutic Interventions for the entire spectrum of vascular disorders,
-                        from Medical Management to Minimally Invasive Keyhole Heart Surgery to Conventional Open Heart Surgery.
+                        Tashree  Hospital is a leading women's health care facility in the Rajkot, dedicated to providing high-quality gynecological and obstetric care to women of all ages. Our team of skilled and experienced gynecologists, obstetricians, and fertility experts work together to provide a comprehensive range of services, from routine check-ups to advanced medical treatments.
                     </p>
+                    <p className='text-gray-600 mt-5 text-justify'>
+                        We understand that women's health care needs are unique and can vary at different stages of life. That's why we offer a range of specialized services tailored to meet the specific needs of our patients. Whether you require routine gynecological care, prenatal care, infertility treatment, or gynecological surgery, our team is here to provide you with the highest level of care.
+
+                    </p>
+
+
+
                 </div>
+
                 <div className='flex flex-wrap  justify-center lg:w-[50%]'>
                     <div className="flex flex-wrap gap-5 justify-center  ">
                         <div className="flex flex-col items-center w-64 gap-5 justify-center border border-gray-400 p-4 m-2">
@@ -102,16 +106,28 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="flex-1  p-8 lg:pl-32 lg:pr-32">
+
+                <p className='text-gray-600 mt-5 text-justify'>
+                    At Tashree Hospital, we are committed to providing a safe, comfortable, and compassionate environment for all our patients. Our state-of-the-art facilities are equipped with the latest medical technology, ensuring accurate diagnosis and treatment. Our team of doctors, nurses, and support staff work together to provide personalized care to each patient, ensuring that you receive the best possible treatment and support.
+                </p>
+                <p className='text-gray-600 mt-5 text-justify'>
+                    We are proud to serve the women of Rajkot and surrounding areas, and we strive to ensure that our patients receive the best possible care.
+                </p>
+                <p className='text-gray-600 mt-5 text-justify font-bold'>
+                    We invite you to visit us at Tashree Hospital Rajkot and experience our commitment to women's health care firsthand.
+                </p>
+            </div>
             <div className='bg-[#001e57] '>
                 <h1 className='text-4xl pt-10 mb-10 font-bold text-center text-white '>Our Specialization</h1>
-                <div className='lg:pl-36 lg:pr-36 flex flex-wrap justify-around gap-6'>
+                <div className='lg:pl-28 lg:pr-28 flex flex-wrap justify-around gap-3'>
                     {specializationCards?.map((card, index) => (
                         <div key={index} className='flex flex-col items-center'>
                             <div className='bg-white border animate__animated animate__pulse border-black p-2'>
                                 <img src={card.imgSrc} alt={card.title} width={200} height={100} className='border-black border-[5px] h-[200px]' />
                             </div>
                             <p className='text-xl text-white mt-3 text-center' >{card.title}</p>
-                            <p className='text-[#14B0EB] sm:w-80 text-center mt-5 p-1'>{card.description}</p>
+                            <p className='text-[#14B0EB] sm:w-80  text-center mt-5 p-1'>{card.description}</p>
                             <p className='text-[#14B0EB] text-center w-full'>Read more</p>
                         </div>
                     ))}
@@ -121,7 +137,7 @@ function Home() {
                 <div className="flex-1  w-[50%] bg-[#f3f5f9] p-8 lg:pl-32 lg:pr-32">
                     <p className="font-semibold text-4xl text-black mt-3">Our Expert Doctor</p>
                     <p className=' mt-5 text-blue-700 text-xl text-justify'>
-                        Approach        
+                        Approach
                     </p>
                     <hr className='border-t-2 border-[#14B0EB] w-20  mt-4' />
                     <p className='text-gray-600 mt-5 text-justify'>
@@ -140,11 +156,11 @@ function Home() {
             <div className='bg-[#001e57] p-24'>
                 <h1 className='text-4xl  font-bold text-start text-white'>Latest Updates
                 </h1>
-                    <hr className='border-t-2 border-[#14B0EB] w-36  mt-4' />
+                <hr className='border-t-2 border-[#14B0EB] w-36  mt-4' />
 
             </div>
             <h1 className='text-5xl mt-20     font-bold text-center text-[#001e57] mb-20'>Our Patient's Feedback
-            <hr className='border-t-2 border-[#14B0EB] w-20 mx-auto  mt-4' />
+                <hr className='border-t-2 border-[#14B0EB] w-20 mx-auto  mt-4' />
             </h1>
 
         </>

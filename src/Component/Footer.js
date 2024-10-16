@@ -12,7 +12,7 @@ function Footer() {
                         About Our Expert
                     </p>
                     <p className='text-white md:w-72 mt-4'>
-                        Dr. Jaydip Ramani is a senior, qualified Vascular and Minimal Invasive Keyhole Heart Surgeon in clinical practice for the last 12+ years. Dr. Jaydip Ramani is working at Plexus Heart Surgery Centre which is a state-of-the-art, specialized Minimal Invasive Keyhole Heart Surgery for Cardio Thoracic Vascular Surgeon.
+                        Tashree Hospital & Endoscopy Centre offers a comprehensive range of infertility services and Gynaec Endoscopic Surgeries under one roof and we are known for our innovation, integrity, medical and technical excellence, personalised services, and consistent willingness to accept patients facing the most difficult medical challenges.
                     </p>
                     <p className='border-gray-600 text-white border-[1px] w-40 rounded-sm mt-4 p-3'>
                         Read More....
@@ -23,26 +23,24 @@ function Footer() {
                         Our Services
                     </p>
                     <p className='text-white   mt-4 '>
-                        Heart Valve Surgeries
+                        Maternity Department
                     </p>
-                    <p className='text-white    '>
-                        Minimally Invasive CABG
+                    <p className='text-white '>
+                        Department of Gynecology
                     </p> <p className='text-white   '>
-                        Mitral Valve Replacement
+                        Embryo Center
                     </p> <p className='text-white   '>
-                        Coronary Artery Bypass
+                        Laser Hair Removal
                     </p> <p className='text-white   '>
-                        L.V. Aneurysms Operation
+                        Laparoscopy
                     </p>
                     <p className='text-white'>
-                        Aortic root surgery (Aneurysms)
+                        Sonography Infertility Division(I.V.F)
                     </p>
                     <p className='text-white'>
-                        Coronary Endarterectomy
+                        Homeopthic Skin Care
                     </p>
-                    <p className='text-white'>
-                        Myxoma
-                    </p>
+
                 </div>
                 <div>
                     <p className='text-white font-bold text-xl'>
